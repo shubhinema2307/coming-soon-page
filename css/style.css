@@ -1,0 +1,538 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Libre Franklin', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo-img {
+    height: 18px;;
+}
+
+.subs-form {
+    text-align: center;
+}
+
+.subs-form h1, .subs-form h1 > b {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0px;
+    color: hsl(0, 0%, 59%);
+}
+
+.subs-form h1 > b {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #000000;
+}
+
+.subs-form p {
+    font-size: 13px;
+    color: #000000;
+}
+
+.subs-form #form-error {
+    font-size: 12px;
+    color: hsl(354, 100%, 66%);
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.subs-form input {
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 27px;
+    padding: 12px 0 12px 20px;
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+    margin-top: 20px;
+}
+
+.subs-form .btn-notify{
+    margin: 20px 0px;
+    background-color: hsl(223, 87%, 63%);
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0px 8px 12px 0px #b7c2e9
+}
+
+.dashboard-img {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-flex;
+    margin: 20px;
+    color:hsl(223, 87%, 63%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 30px;
+}
+
+.social-icon .fa-facebook-f {
+    padding: 8px 11px;
+}
+
+.social-icon .fa-twitter {
+    padding: 8px;
+}
+
+.social-icon .fa-instagram {
+    padding: 8px 9px;
+}
+
+.footer-copyright {
+    font-size: 11px;
+    color: hsl(0, 0%, 70%);
+    padding-bottom: 50px;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .logo {
+        margin-top: 80px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .logo-img {
+        height: 18px;;
+    }
+    
+    .subs-form {
+        text-align: center;
+    }
+    
+    .subs-form h1, .subs-form h1 > b {
+        font-size: 22px;
+        text-align: center;
+        padding: 20px 0px;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    .subs-form h1 > b {
+        font-size: 22px;
+        text-align: center;
+        padding: 20px 0px;
+        color: #000000;
+    }
+    
+    .subs-form p {
+        font-size: 13px;
+        color: #000000;
+    }
+
+    .subs-form #form-error {
+        font-size: 12px;
+        color: hsl(354, 100%, 66%);
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .subs-form input {
+        border: 1px solid hsl(223, 100%, 88%);
+        border-radius: 27px;
+        padding: 12px 0 12px 20px;
+        font-size: 12px;
+        color: hsl(0, 0%, 59%);
+        margin-top: 20px;
+    }
+    
+    .subs-form .btn-notify{
+        margin: 20px 0px;
+        background-color: hsl(223, 87%, 63%);
+        color: #ffffff;
+        padding: 16px;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 600;
+        box-shadow: 0px 8px 12px 0px #b7c2e9
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    footer ul li {
+        display: inline-flex;
+        margin: 20px;
+        color:hsl(223, 87%, 63%);
+        border: 1px solid hsl(0, 0%, 80%);
+        border-radius: 30px;
+    }
+    
+    .social-icon .fa-facebook-f {
+        padding: 8px 11px;
+    }
+    
+    .social-icon .fa-twitter {
+        padding: 8px;
+    }
+    
+    .social-icon .fa-instagram {
+        padding: 8px 9px;
+    }
+    
+    .footer-copyright {
+        font-size: 11px;
+        color: hsl(0, 0%, 70%);
+        padding-bottom: 50px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container {
+        width: 1440px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        margin-top: 80px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .subs-form {
+        text-align: center;
+    }
+    
+    .subs-form h1, .subs-form h1 > b {
+        font-size: 48px;
+        text-align: center;
+        padding: 20px 0px;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    .subs-form h1 > b {
+        color: #000000;
+    }
+    
+    .subs-form p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .subs-form #form-error {
+        font-size: 14px;
+        color: hsl(354, 100%, 66%);
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .subs-form input {
+        border: 1px solid hsl(223, 100%, 88%);
+        border-radius: 27px;
+        padding: 12px 0 12px 20px;
+        font-size: 16px;
+        color: hsl(0, 0%, 59%);
+        margin-top: 20px;
+    }
+    
+    .subs-form .btn-notify{
+        margin: 20px 0px;
+        background-color: hsl(223, 87%, 63%);
+        color: #ffffff;
+        padding: 16px;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        box-shadow: 0px 8px 12px 0px #b7c2e9
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    footer ul li {
+        display: inline-flex;
+        margin: 20px;
+        color:hsl(223, 87%, 63%);
+        border: 1px solid hsl(0, 0%, 80%);
+        border-radius: 30px;
+    }
+    
+    .social-icon .fa-facebook-f {
+        padding: 8px 11px;
+    }
+    
+    .social-icon .fa-twitter {
+        padding: 8px;
+    }
+    
+    .social-icon .fa-instagram {
+        padding: 8px 9px;
+    }
+    
+    .footer-copyright {
+        font-size: 12px;
+        color: hsl(0, 0%, 70%);
+        padding-bottom: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container {
+        width: 1440px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin-top: 80px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .subs-form {
+        text-align: center;
+    }
+    
+    .subs-form h1, .subs-form h1 > b {
+        font-size: 48px;
+        text-align: center;
+        padding: 20px 0px;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    .subs-form h1 > b {
+        color: #000000;
+    }
+    
+    .subs-form p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .subs-form #form-error {
+        font-size: 14px;
+        color: hsl(354, 100%, 66%);
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .subs-form input {
+        border: 1px solid hsl(223, 100%, 88%);
+        border-radius: 27px;
+        padding: 12px 0 12px 20px;
+        font-size: 16px;
+        color: hsl(0, 0%, 59%);
+        margin-top: 20px;
+    }
+    
+    .subs-form .btn-notify{
+        margin: 20px 0px;
+        background-color: hsl(223, 87%, 63%);
+        color: #ffffff;
+        padding: 16px;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        box-shadow: 0px 8px 12px 0px #b7c2e9
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    footer ul li {
+        display: inline-flex;
+        margin: 20px;
+        color:hsl(223, 87%, 63%);
+        border: 1px solid hsl(0, 0%, 80%);
+        border-radius: 30px;
+    }
+    
+    .social-icon .fa-facebook-f {
+        padding: 8px 11px;
+    }
+    
+    .social-icon .fa-twitter {
+        padding: 8px;
+    }
+    
+    .social-icon .fa-instagram {
+        padding: 8px 9px;
+    }
+    
+    .footer-copyright {
+        font-size: 12px;
+        color: hsl(0, 0%, 70%);
+        padding-bottom: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container {
+        width: 1440px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin-top: 80px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .subs-form {
+        text-align: center;
+    }
+    
+    .subs-form h1, .subs-form h1 > b {
+        font-size: 48px;
+        text-align: center;
+        padding: 20px 0px;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    .subs-form h1 > b {
+        color: #000000;
+    }
+    
+    .subs-form p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .subs-form #form-error {
+        font-size: 14px;
+        color: hsl(354, 100%, 66%);
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .subs-form input {
+        border: 1px solid hsl(223, 100%, 88%);
+        border-radius: 27px;
+        padding: 12px 0 12px 20px;
+        font-size: 16px;
+        color: hsl(0, 0%, 59%);
+        margin-top: 20px;
+    }
+    
+    .subs-form input:focus {
+        border: 1px solid hsl(354, 100%, 66%);
+    }
+
+    .subs-form .btn-notify{
+        margin: 20px 0px;
+        background-color: hsl(223, 87%, 63%);
+        color: #ffffff;
+        padding: 16px;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        box-shadow: 0px 8px 12px 0px #b7c2e9
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    footer ul li {
+        display: inline-flex;
+        margin: 20px;
+        color:hsl(223, 87%, 63%);
+        border: 1px solid hsl(0, 0%, 80%);
+        border-radius: 30px;
+    }
+    
+    .social-icon .fa-facebook-f {
+        padding: 8px 11px;
+    }
+    
+    .social-icon .fa-twitter {
+        padding: 8px;
+    }
+    
+    .social-icon .fa-instagram {
+        padding: 8px 9px;
+    }
+    
+    .footer-copyright {
+        font-size: 12px;
+        color: hsl(0, 0%, 70%);
+        padding-bottom: 50px;
+    }
+    
+}
